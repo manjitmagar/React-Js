@@ -1,3 +1,5 @@
+import contactus from './images/contactus logo traffic police.png';
+
 import React from 'react';
 
 const Contact = () => {
@@ -14,7 +16,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="contact-image">
-          <img src="./images/main.png" alt="Contact Image" />
+          <img src={contactus} alt="Contact Image" />
         </div>
       </div>
     </div>

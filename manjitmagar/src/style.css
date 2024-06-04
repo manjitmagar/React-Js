@@ -49,7 +49,7 @@ p, li, a{
 }
 
 .btn:hover{
-    background-color: var(--bnt-hover-bg-color);
+    background-color: red;
     cursor: pointer;
     box-shadow: var(--btn-box-shadow);
 }
@@ -424,7 +424,7 @@ ul{
 }
 
 .section-contact--homepage .fa-solid{
-    padding: 0;
+    padding: 2rem;
     color: var(--white-color);
     background-color: var(--main-color);
 }
